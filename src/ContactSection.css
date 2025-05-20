@@ -1,0 +1,45 @@
+#ContactSection .p-4:hover {
+    border: 1px solid #c4a047;
+}
+
+#ContactSection .p-4 {
+    background-color: #222222;
+}
+
+#ContactSection .p-4 .mb-4{
+    border-radius: 10px;
+    padding: 8px 12px 1px;
+}
+#ContactSection .p-4 .mb-4:hover {
+    background: #353535;
+}
+
+#ContactSection .p-4 p {
+    color: #71717b;
+}
+
+#ContactSection .p-4 input,
+#ContactSection .p-4 textarea,
+#ContactSection .p-4 select {
+    background: transparent;
+    border-color: #646464;
+    color: black;
+}
+
+#ContactSection .p-4 .mb-3:hover label {
+    color: #ffc107;
+}
+
+#ContactSection .p-4 .mb-3:hover input,
+#ContactSection .p-4 .mb-3:hover textarea,
+#ContactSection .p-4 .mb-3:hover select {
+    background: transparent;
+    border-color: #ffc107;
+    color: black;
+}
+
+#ContactSection .p-4 input::placeholder,
+#ContactSection .p-4 select::placeholder,
+#ContactSection .p-4 textarea::placeholder {
+    color: #646464;
+}

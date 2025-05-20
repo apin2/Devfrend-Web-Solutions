@@ -1,0 +1,27 @@
+.underline-heading {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.underline-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 3px;
+  background-color: #ffc107;
+  transition: width 0.3s ease-in-out;
+}
+
+.underline-heading:hover::after {
+  width: 100%;
+}
+.btn-outline-secondary:hover{
+    background-color: #ffc107 !important;
+    color: black !important;
+    border: transparent !important;
+}
+

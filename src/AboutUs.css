@@ -1,0 +1,27 @@
+.section-heading {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25px;
+  height: 3px;
+  background-color: #ffc107; /* Use your preferred color */
+  transition: width 0.3s ease-in-out;
+}
+
+#about-us-top:hover .section-heading::after {
+  width: 100%;
+}
+#about-us-top:hover .story-section{
+  transform: translateY(-10%);
+}
+.about-content:hover p{
+  padding-left: 2px;
+}

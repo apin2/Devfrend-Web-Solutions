@@ -1,0 +1,39 @@
+.underline-heading {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.underline-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 3px;
+  background-color: #ffc107;
+  transition: width 0.3s ease-in-out;
+}
+
+.underline-heading:hover::after {
+  width: 100%;
+}
+.card:hover{
+  transform: translateY(-2%);
+    border: 1px solid #d6af4a !important;
+}
+.card{
+    border: 1px solid #535353 !important;
+    min-height: 350px;
+}
+.card-footer:last-child{
+    min-height: 80px;
+}
+.card p{
+    font-style: italic;
+}
+.card-footer strong{
+    border-left: 3px solid #f4bf37;
+    padding-left: 5px;
+}

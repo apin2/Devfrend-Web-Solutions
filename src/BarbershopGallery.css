@@ -1,0 +1,25 @@
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.underline-heading {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.underline-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 3px;
+  background-color: #ffc107;
+  transition: width 0.3s ease-in-out;
+}
+
+.underline-heading:hover::after {
+  width: 100%;
+}
